@@ -1,7 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Building2, Users, Rocket, Mail, ArrowRight, CheckCircle2, Globe2, Star, Sparkles } from 'lucide-react';
 
 function App() {
+
+
+
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -273,10 +276,10 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 group">
               <Building2 className="h-6 w-6 group-hover:animate-float" />
-              <span className="text-xl font-bold">CompanyName</span>
+              <span className="text-xl font-bold">TAN Tech</span>
             </div>
             <div className="mt-6 md:mt-0">
-              <p>&copy; {new Date().getFullYear()} CompanyName. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} TAN Tech. All rights reserved.</p>
             </div>
           </div>
         </div>
